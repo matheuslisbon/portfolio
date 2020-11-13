@@ -156,6 +156,9 @@ const HomeDiv = styled.div`
     }
  
   }
+  a{
+    color:white;
+  }
 
 `
 

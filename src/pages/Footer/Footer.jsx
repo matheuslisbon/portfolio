@@ -5,7 +5,6 @@ export default function Footer(){
     <FooterDiv>
       <p>Site criado com carinho por Matheus Eduardo - 2020</p> 
       <p>Espero que você tenha gostado</p>
-
     </FooterDiv>
   )
 }
