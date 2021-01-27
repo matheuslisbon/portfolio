@@ -1,7 +1,7 @@
 import styled from 'styled-components'
 
 const SkillsDiv = styled.div`
-background:black;
+
 article{
   font-size:0.2px;
   padding-bottom:20px;
@@ -10,7 +10,7 @@ header{
     padding: 50px 60px;
 
   width: 90%;
-  background: #070707;
+  background: #070707cc;
   margin: 10px auto;
   margin-top: 30px;
   display:grid;

@@ -3,7 +3,7 @@ import styled from 'styled-components'
 const SobreDiv = styled.div`
   color:white;
 
-  background: black;
+
   padding-bottom: 20px;
 
   #sobre{
@@ -45,7 +45,7 @@ const SobreDiv = styled.div`
     border-radius: 18px;
     width: 90%;
     margin: 0 auto;
-    background: #070707;
+    background: #070707cc;
     padding:20px 20px 20px 20px;
     line-height: 1.5;
     font-size: 26px;

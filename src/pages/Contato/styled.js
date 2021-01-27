@@ -1,10 +1,10 @@
 import styled from "styled-components";
 const ContatoDiv = styled.div`
-background: black;
+
 div{
     color: white;
 
-  background: #070707;
+  background: #070707cc;
   border-radius:18px;
   font-size: 26px;
   width:90%;

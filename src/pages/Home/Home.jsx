@@ -16,6 +16,7 @@ export default function Home(props) {
             className="effectBottom"
             size={"7rem"}
           />
+
         </a>
       </header>
       <div id="portfolio">a</div>

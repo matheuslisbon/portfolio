@@ -2,9 +2,7 @@ import styled from 'styled-components'
 
 const HomeDiv = styled.div`
 
-  background-image:url('https://images.wallpaperscraft.com/image/code_text_colorful_140555_1920x1080.jpg');
-  background-repeat: no-repeat;
-  background-size: 100vw 132vh;
+
   header{
     display:flex;
     position: relative;
@@ -13,8 +11,7 @@ const HomeDiv = styled.div`
     padding-top: 164px;
     padding-bottom: 100px;
     align-items:center;
-    background: rgba(0,0,0,0.4);
-    backdrop-filter: saturate(150%) blur(3px);
+
   }
 
 @keyframes toright {
@@ -48,7 +45,7 @@ const HomeDiv = styled.div`
     margin-top: -50px;
     display:flex;
     flex-direction:column;
-     background: #070707;
+     background: #070707cc;
      border-radius: 18px;
      padding-bottom:35px;
   }

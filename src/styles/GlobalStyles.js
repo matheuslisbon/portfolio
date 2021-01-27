@@ -28,9 +28,14 @@ html{
 body{
     font-family: 'Roboto', sans-serif;
     color: white;
-    background:black;
-    background-repeat: no-repeat;
-    background-size: 100%;
+
+    background-image: url('https://images.pexels.com/photos/2047905/pexels-photo-2047905.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size: 100% 250%;
+
+
+  background-attachment: fixed;
 }
 
 ::-webkit-scrollbar {
