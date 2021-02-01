@@ -30,7 +30,7 @@ export default function Sobre(props) {
             Tecnologias que domino:{" "}
             <label>
               {" "}
-              MongoDb, Express, React e Node (Mern-Stack)
+              NextJS, MongoDb, Express, React e Node (Mern-Stack)
               <br /> e outras como MySQL PostgreSQL, Jest, Sequelize, Git,
               GitHub...{" "}
             </label>
