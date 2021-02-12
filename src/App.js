@@ -28,8 +28,6 @@ function App() {
       if(scrollDiv === 'skillsEffect')
       setScrollDiv('sobreEffect')
     }
-
-
   }
   useEffect(()=>{
 

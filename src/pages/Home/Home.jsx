@@ -2,7 +2,10 @@ import HomeDiv from "./styled";
 import ImgNlwHappy from "../../styles/images/gitHubImgs/happy.png";
 import ImgCloneYoutube from "../../styles/images/gitHubImgs/cloneYoutubeImg.jpg";
 import ImgNlwEcolleta from "../../styles/images/gitHubImgs/nlwEcolleta.png";
+import devFinances from '../../styles/images/gitHubImgs/DevFinances.jpeg'
+import mountain from '../../styles/images/gitHubImgs/webMountain.jpeg'
 import { AiOutlineDown } from "react-icons/ai";
+import Portfolio from "../../components/itensPortfolio";
 
 export default function Home(props) {
   return (
@@ -16,56 +19,59 @@ export default function Home(props) {
             className="effectBottom"
             size={"7rem"}
           />
-
         </a>
       </header>
+
       <div id="portfolio">a</div>
+
       <section>
+
         <h1 className={`port-div ${props.nameClass}`}>Pórtfolio</h1>
 
-        <div className={`div-grid ${props.nameClass}`}>
-          <a target="_black" href="https://dados-covid-world.netlify.app/">
-            <div className="item-grid">
-              <h1>Dados de covid-19 </h1>
-              <img
-                src="https://portfolio-matheus-developer.netlify.app/static/media/imgSite.563030d3.PNG"
-                alt=""
-              />
-              <p>Casos diarios covid-19</p>
-            </div>
-          </a>
-          <a
-            target="_black"
-            href="https://github.com/matheuslisbon/next-level-week-happy"
-          >
-            <div className="item-grid">
-              <h1>Next Level Week 3</h1>
-              <img src={ImgNlwHappy} alt="" />
-              <p>Orfanato de crianças</p>
-            </div>
-          </a>
+        <div className={`div-grid ${props.nameClass}`}>    
 
-          <a
-            target="_black"
-            href="https://github.com/matheuslisbon/clone-youtube"
-          >
-            <div className="item-grid">
-              <h1>Clone Youtube</h1>
-              <img src={ImgCloneYoutube} alt="" />
-              <p>Clone do youtube com Material-UI</p>
-            </div>
-          </a>
+          <Portfolio 
+          link={'https://devfinances-matheus-dev.netlify.app'} 
+          title={'dev.finance$'}
+          description={'Projeto de finanças'}>
+          <img src={devFinances} alt="Projeto de finanças" />
+          </Portfolio>
 
-          <a
-            target="_black"
-            href="https://github.com/matheuslisbon/next-level-week1-E-colleta"
-          >
-            <div className="item-grid">
-              <h1>Nlw E-colleta</h1>
-              <img src={ImgNlwEcolleta} alt="" />
-              <p>Projeto de reciclagem de lixo</p>
-            </div>
-          </a>
+          <Portfolio
+          link={'https://mountains-matheus-dev.netlify.app'}
+          title={'Mountain OutDor'}
+          description={'Galeria de montanhas'}>
+          <img src={mountain} alt="galeria de montanhas" />
+          </Portfolio>
+
+          <Portfolio
+          link={'https://dados-covid-world.netlify.app/'}
+          title={'Dados de covid-19'}
+          description={'Casos diarios covid-19'}>
+          <img src="https://portfolio-matheus-developer.netlify.app/static/media/imgSite.563030d3.PNG"
+          alt="Dados diarios de covid"/>
+          </Portfolio>
+
+          <Portfolio
+          link={"https://github.com/matheuslisbon/next-level-week-happy"}
+          title={'Next Level Week 3'}
+          description={'Orfanato de criança'}>
+          <img src={ImgNlwHappy} alt="" />
+          </Portfolio>
+
+          <Portfolio
+          link={"https://github.com/matheuslisbon/clone-youtube"}
+          title={'Clone Youtube'}
+          description={'Clone do youtube com Material-UI'}>
+          <img src={ImgCloneYoutube} alt="" />
+          </Portfolio>
+
+          <Portfolio
+          link={'https://github.com/matheuslisbon/next-level-week1-E-colleta'}
+          title={'Nlw E-colleta'}
+          description={'Projeto de reciclagem de resíduos'} >
+          <img src={ImgNlwEcolleta} alt="Reciclagem de resíduos" />
+          </Portfolio>
         </div>
       </section>
     </HomeDiv>
