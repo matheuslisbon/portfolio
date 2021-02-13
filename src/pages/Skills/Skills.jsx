@@ -36,7 +36,8 @@ export default function Skills(props) {
       <div className="itens">
         <Progress
         nameClass={props.nameClass}
-          porcent={'AVAÇADO'}
+          porcent={100}
+          text={'AVAÇADO'}
           imgLink={'https://rdrdev.netlify.app/img/html.png'}
 
           colorBk={" linear-gradient(to left, #ff00ff, #fb4a21)"}
@@ -49,7 +50,8 @@ export default function Skills(props) {
 
         <Progress
         nameClass={props.nameClass}
-          porcent={'AVANÇADO'}
+          porcent={100}
+          text={'AVAÇADO'}
           imgLink={'https://rdrdev.netlify.app/img/javascript.png'}
 
           colorBk={"linear-gradient(to left, #ff6731, #ffcd00)"}
@@ -62,7 +64,8 @@ export default function Skills(props) {
 
         <Progress
         nameClass={props.nameClass}
-          porcent={'INTERMEDÍARIO'}
+          porcent={100}
+          text={'INTERMEDÍARIO'}
           colorBk={"linear-gradient(to right, #8a2be2 , #ff3a40  )"}
           skills="CSS"
           count={100}
@@ -74,7 +77,8 @@ export default function Skills(props) {
 
         <Progress
         nameClass={props.nameClass}
-          porcent={'INTERMEDÍARIO'}
+        porcent={100}
+        text={'INTERMEDÍARIO'}
           colorBk={"linear-gradient(to right, #69ff46, #3a90e5"}
           skills="Node"
           count={100}
@@ -85,7 +89,9 @@ export default function Skills(props) {
         </Progress>
         <Progress
         nameClass={props.nameClass}
-          porcent={'INTERMEDÍARIO'}
+        porcent={100}
+        text={'INTERMEDÍARIO'}
+
           colorBk={"linear-gradient(to right, #0b36c3 , #7df9ff)"}
           skills="React"
           count={100}
