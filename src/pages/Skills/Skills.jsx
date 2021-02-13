@@ -8,7 +8,7 @@ export default function Skills(props) {
       <header>
         <div className={props.nameClass}>
         <h1 className='skills'>SKILLS</h1>
-        <h3>Desenvolvo tanto no Fronted quanto no Backend(Fullstack)</h3>
+        <h3>Desenvolvo tanto no Frontend quanto no Backend(Fullstack)</h3>
         <div className='itens-grid'>
 <ul> <h1>Backend</h1>
           <li>NodeJS</li>
@@ -18,7 +18,7 @@ export default function Skills(props) {
           <li>PostgresSql</li>
           <li>MongoDb</li>
           <li>Sequelize Orm</li>
-          <li>E alguns Templating engines <br/> Handlebars, EJS, Nunjucks...</li>
+          <li>Templating engines <br/> Handlebars, EJS, Nunjucks...</li>
         </ul>
         <ul>
           <h1>Frontend</h1>
@@ -26,7 +26,7 @@ export default function Skills(props) {
           <li>React Native(Mobile)</li>
           <li>Jest(Test)</li>
           <li>Styled-Components</li>
-          <li>Boostraps</li>
+          <li>Bootstrap</li>
           <li>React-Redux</li>
           <li>React-Hooks</li>
         </ul>
@@ -36,31 +36,33 @@ export default function Skills(props) {
       <div className="itens">
         <Progress
         nameClass={props.nameClass}
-          porcent={100}
+          porcent={'AVAÇADO'}
           imgLink={'https://rdrdev.netlify.app/img/html.png'}
-          colorBk={"linear-gradient(to right, #0b36c3 , #7df9ff)"}
+
+          colorBk={" linear-gradient(to left, #ff00ff, #fb4a21)"}
           skills="HTML"
           count={100}
-          borderName={'#0b36c3'}
+          borderName={'#ff00ff'}
         >
           HTML
         </Progress>
 
         <Progress
         nameClass={props.nameClass}
-          porcent={95}
+          porcent={'AVANÇADO'}
           imgLink={'https://rdrdev.netlify.app/img/javascript.png'}
-          colorBk={" linear-gradient(to left, #ff00ff, #fb4a21)"}
+
+          colorBk={"linear-gradient(to left, #ff6731, #ffcd00)"}
           skills="Javascript"
           count={100}
-          borderName={'#ff00ff'}
+          borderName={'#ff6731'}
         >
           JAVASCRIPT  
         </Progress>
 
         <Progress
         nameClass={props.nameClass}
-          porcent={88}
+          porcent={'INTERMEDÍARIO'}
           colorBk={"linear-gradient(to right, #8a2be2 , #ff3a40  )"}
           skills="CSS"
           count={100}
@@ -72,7 +74,7 @@ export default function Skills(props) {
 
         <Progress
         nameClass={props.nameClass}
-          porcent={90}
+          porcent={'INTERMEDÍARIO'}
           colorBk={"linear-gradient(to right, #69ff46, #3a90e5"}
           skills="Node"
           count={100}
@@ -83,12 +85,12 @@ export default function Skills(props) {
         </Progress>
         <Progress
         nameClass={props.nameClass}
-          porcent={88}
-          colorBk={"linear-gradient(to left, #ff6731, #ffcd00)"}
+          porcent={'INTERMEDÍARIO'}
+          colorBk={"linear-gradient(to right, #0b36c3 , #7df9ff)"}
           skills="React"
           count={100}
           imgLink={'https://portfolio-matheus-developer.netlify.app/static/media/react.240b74b4.png'}
-          borderName={'#ff6731'}
+          borderName={'#0b36c3'}
         >
           REACT
         </Progress>

@@ -9,8 +9,8 @@ export default function Progress (props){
       </div>
 
       <div className="container">
-        <div style={{ width: `${props.porcent}%`, background:`${props.colorBk}`}} className="progress-bar">{props.children} / {props.porcent}%</div>
-        <div className='ppp'>100%</div>
+        <div style={{ width: `${props.porcent}%`, background:`${props.colorBk}`}} className="progress-bar">{props.children} / {props.porcent}</div>
+        <div className='ppp'></div>
       </div>
     </ProgressDiv>
   )
