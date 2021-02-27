@@ -6,6 +6,7 @@ import devFinances from '../../styles/images/gitHubImgs/DevFinances.jpeg'
 import mountain from '../../styles/images/gitHubImgs/webMountain.jpeg'
 import { AiOutlineDown } from "react-icons/ai";
 import Portfolio from "../../components/itensPortfolio";
+import moveIt from '../../styles/images/gitHubImgs/moveIt.jpeg'
 
 export default function Home(props) {
   return (
@@ -52,6 +53,13 @@ export default function Home(props) {
           alt="Dados diarios de covid"/>
           </Portfolio>
 
+          <Portfolio 
+          link={'https://move-it-beige.vercel.app/'} 
+          title={'move-it nlw4'}
+          description={'Técnica de pomodoro'}>
+          <img src={moveIt} alt="Técnica de pomodoro" />
+          </Portfolio>
+          
           <Portfolio
           link={"https://github.com/matheuslisbon/next-level-week-happy"}
           title={'Next Level Week 3'}
